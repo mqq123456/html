@@ -1,0 +1,76 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	background-color: white;
+	text-align: center;
+	/*margin-top: 30px;*/
+	width: 262px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	margin: 30px auto 0px;
+}
+.content .panel{
+	/*background-color: red;*/
+	text-align: center;
+}
+.content .panel .group{
+	width: 262px;
+	margin:0px auto 20px;
+	/*background-color: blue;*/
+	text-align: left;
+}
+.content .panel .group label{
+	/*background-color: yellow;*/
+	padding-left: 5px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
+	text-align: left;
+}
+.content .panel .group input{
+	/*background-color: gray;*/
+	display: block;
+	width: 250px;
+	height: 30px;
+	border: 1px solid #ddd;
+	outline: none;
+	font-size: 16px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 10px;
+}
+.content .panel .login button{
+	width: 260px;
+	height: 30px;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+	background-color: #cc865e;
+	padding: 0px;
+}
+.content .panel .login button:hover{
+	border: 1px solid #cc865e;
+	color: #cc865e;
+	background-color: white;
+}
+.content .reg button{
+	width: 180px;
+	height: 30px;
+	color: white;
+	border: 0px;
+	font-size: 18px;
+	background-color: #466baf;
+	padding: 0px;
+	margin-top: 20px;
+}
+button{
+	cursor: pointer;
+}
+.content .reg button:hover{
+
+	color: #466baf;
+	border: 1px solid #466baf;
+	background-color: white;
+
+}

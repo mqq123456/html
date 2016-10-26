@@ -1,0 +1,119 @@
+@font-face{
+	font-family: "BebasNeue-webfont";
+	src:url("../fonts/BebasNeue-webfont.ttf");
+}
+
+body, div, button, input, ul, li, label, a, h1,h2,h3,h4,h5,h6,span,p{
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-image: url(../images/pattern.gif);
+	font-size: 17px;
+}
+.head-line{
+	background-color: #c0392b;
+	height: 3px;
+} 
+.nav ul{
+	list-style: none;
+	/*background:red;*/
+	text-align: center;
+}
+.nav ul li{
+	/*background-color: blue;*/
+	display: inline-block;
+	height: 50px;
+	line-height: 40px;
+	width: 200px;
+}
+.nav ul li a{
+	color: white;
+	display: block;
+	font-family: "BebasNeue-webfont";
+	font-size: 20px;
+}
+
+.nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.list-content{
+	/*background-color: white;*/
+
+}
+.list-content .list{
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+}
+.list-content .list .item{
+	/*background-color: white;*/
+	width: 382px;
+	/*float: left;*/
+	margin:20px 10px 20px 10px;
+	display: inline-block;
+	text-align: center;
+}
+.list-content .list .item p{
+	font-family: "sans-serif";
+	color: #aaa;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 18px;
+}
+.list-content .list .item a{
+	background-color: #c0392b;
+	color: white;
+	font-family: "BebasNeue-webfont";
+	font-size: 19px;
+	/*margin-left: 20px;*/
+	width: 150px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+}
+
+.list-content .list .item a:hover{	
+	background-color: #112611;
+}
+.contrect h1{
+	font-family: "BebasNeue-webfont";
+}
+.contrect{
+	text-align: center;
+}
+.contrect h1{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.contrect li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.contrect ul li:hover{
+	opacity: 0.5;
+}
+
+/*移动先行－*/
+@media screen and (max-width: 1400px) {
+    .nav ul li {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .nav ul li {
+        width: 80px;
+    }
+}
+
+
+

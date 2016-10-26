@@ -1,0 +1,77 @@
+body{
+	background-color: #f2f2f2;
+}
+.content {
+
+	margin-top: 50px;
+}
+.content .panel{
+
+	background-color: white;
+	width: 300px;
+	margin:0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*border-color: #ddd;*/
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+}
+.content .panel .group {
+	/*background-color: red;*/
+	width: 262px;
+	text-align: left;
+	margin:0px auto 20px;
+}
+.content .panel .group label{
+	/*background-color: red; */
+	padding-left: 5px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
+}
+.content .panel .group input{
+	display: block;
+	width: 250px;
+	height: 30px;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #ddd;
+	padding: 0px 0px 0px 10px;
+
+}
+.content .panel .login button{
+	border: 0px;
+	padding: 0px;
+	background-color: #cc865e;
+	height: 30px;
+	width: 260px;
+	color: white;
+	font-size: 18px;
+}
+.content .panel .login button:hover{
+	background-color: white;
+	color: #cc865e;
+	border: 1px solid #cc865e;
+}
+.content .reg{
+	text-align: center;
+}
+.content .reg button{
+	background-color: #466baf;
+	width: 180px;
+	height: 30px;
+	color: white;
+	font-size: 18px;
+	border: 0px;
+	padding: 0px;
+	margin-top: 20px;
+}
+button:hover{
+	cursor: pointer;
+}
+.content .reg button:hover{
+	background-color: white;
+	color: #466baf;
+	border: 1px solid #466baf;
+}
